@@ -1,0 +1,22 @@
+
+
+.product {
+    border: 1px solid #b7bbbe;
+    border-radius: 20px;
+    width: 220px;
+    display: inline-block;
+    box-shadow: 5px black;
+    margin-right: 20px;
+   
+}
+
+.product:hover {
+    border-color: red;
+    box-shadow: 1px 1px 6px 3px rgb(144, 144 , 144);
+}
+
+.product h5 {
+    font-size: 20px;
+    font-weight: 400;
+    margin:0 0 5px 0;
+}
