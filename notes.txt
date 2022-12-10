@@ -1,0 +1,14 @@
+# initialize the repository
+git init
+
+#add the remote url
+git remote add orgin <URL>
+
+
+# create a local copy 
+git add.
+git commit -m "MESSAGE"
+
+
+#push/upload
+# first push
