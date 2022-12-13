@@ -20,3 +20,13 @@
     font-weight: 400;
     margin:0 0 5px 0;
 }
+
+.product img {
+width: 190px;
+height: 230px;
+}
+
+.product .prices{
+    display: flex;
+    justify-content: space-around;
+}
