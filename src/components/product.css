@@ -30,3 +30,8 @@ height: 230px;
     display: flex;
     justify-content: space-around;
 }
+
+.product .controls {
+    display: flex;
+    justify-content: space-around;
+}
