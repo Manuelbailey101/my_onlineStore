@@ -8,6 +8,7 @@ import Home from './pages/home';
 import Contact from './pages/contact';
 import Cart from './pages/cart';
 import Test from './pages/test';
+import GlobalData from './store/globalData';
 
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap.min.js";
@@ -17,9 +18,11 @@ import { BrowserRouter, Routes , Route} from 'react-router-dom';
 
 function App() {
   return (
-    <BrowserRouter>
+  <GlobalData>
+   <BrowserRouter>
     <div className="App">
       <NavBar/>
+
      <div className='page-content'>
       <Routes>
         <Route path="/" element={<Home />} ></Route>
@@ -34,6 +37,7 @@ function App() {
       <Footer></Footer>
     </div>
     </BrowserRouter>
+  </GlobalData>
   );
 }
 
