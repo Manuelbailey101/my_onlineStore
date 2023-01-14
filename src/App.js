@@ -2,7 +2,6 @@
 import './App.css';
 import NavBar from './components/navBar';
 import Footer from './components/footer';
-import QuantityPicker from './components/quantityPicker';
 import Catalog from './pages/catalog';
 import Home from './pages/home';
 import Contact from './pages/contact';

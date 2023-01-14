@@ -5,8 +5,16 @@ function GlobalData(props) {
   const [cart, setCart] = useState([]);
   const [fakeUser, setFakeUser] = useState({ name: "Manny" });
 
-  function addProductToCart() {
+  function addProductToCart(product) {
     console.log("global fn called");
+
+    // modify an state var with obj {} or array []
+    // create a copy , modify the copy , set the copy
+
+    var copy=[...cart];
+    copy.push(product);
+    setCart(copy);
+    //no spaces between
   }
 
   function removeProductFromCart() {}

@@ -21,7 +21,7 @@ function Catalog(){
      return (
         <div className="catalog">
             <h3>Check out our amazing products!</h3>
-              <h5>we have{products.length} amazing items for you </h5>
+              <h5>we have {products.length} amazing items for you </h5>
               
             <div className="products">
                 {products.map (prod => <Product data={prod} />) }

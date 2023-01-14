@@ -21,7 +21,7 @@ function Product(props) {
 
     function handleAdd() {
         console.log("button clicked!!", props.data);
-        addProductToCart();
+        addProductToCart(props.data);//call the global function
     }
 
     return (
