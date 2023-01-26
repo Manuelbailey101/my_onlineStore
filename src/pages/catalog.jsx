@@ -12,11 +12,15 @@ function Catalog(){
 
     //when the component loads
     useEffect(() => {
-        console.log("catalog loaded");
-        let service = new DataService();
-        let prodList = service.getCatalog();
-        setProdcuts(prodList);
+       loadData();
          },[]);
+
+ async function loadData() {
+    console.log("catalog loaded");
+    let service = new DataService();
+    let prodList = await service.getCatalog();
+    setProdcuts(prodList);
+ }
     
      return (
         <div className="catalog">
