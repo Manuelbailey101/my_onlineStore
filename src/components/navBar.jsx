@@ -34,8 +34,8 @@ function NavBar(){
       {}
       <form className="d-flex" role="search">
         <Link to="/cart" className="btn btn-outline-dark">
-      <span class="badge text-bg-light"> {cart.length}</span>
-      view cart
+      <span class="badge text-warning"> {cart.length}</span>
+      Your Cart
       </Link>
       </form>
     </div>
